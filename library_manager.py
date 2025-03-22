@@ -122,7 +122,8 @@ def load_library():
         if os.path.exists('library.json'):
             with open('library.json', 'r') as file:
                 st.session_state.library = json.load(file)
-                return True
+            return True
+        else:
             return False
     except Exception as e:
         st.error(f"Error loading library: {e} ")
