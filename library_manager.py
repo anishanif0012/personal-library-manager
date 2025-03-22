@@ -35,7 +35,7 @@ st.markdown("""
         color: #3882F6;
         font-weight: 600;
         margin-top: 1rem;
-        margin-bottom: 1rem
+        margin-bottom: 1rem;
     } 
             
     .success-message {
