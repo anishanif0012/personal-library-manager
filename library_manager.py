@@ -126,7 +126,7 @@ def load_library():
         else:
             return False
     except Exception as e:
-        st.error(f"Error loading library: {e} ")
+        st.error(f"Error loading library: {e}")
         return False
     
 # Save library
@@ -136,7 +136,7 @@ def save_library():
             json.dump(st.session_state.library, file)
             return True
     except Exception as e:
-        st.error(f"Error loading library: {e} ")
+        st.error(f"Error saving library: {e} ")
         return False
     
 # Add a book to library
