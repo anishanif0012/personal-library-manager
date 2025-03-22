@@ -316,7 +316,7 @@ if st.session_state.current_view == "add":
 
         with col2:
             genre = st.selectbox("Genre", [
-                "Friction", "Non-Friction", "Science", "Technology", "Fantasy", "Romance", "Poetry", "Self-help", "Art", "Religion", "History"
+                "Progrsamming", "Friction", "Non-Friction", "Science", "Technology", "Fantasy", "Romance", "Poetry", "Self-help", "Art", "Religion", "History"
             ])
             read_status = st.radio("Read Status", ["Read", "Unread"], horizontal=True)
             read_bool = read_status == "Read"
